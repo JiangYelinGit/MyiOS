@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  DarkModeViewController.h
 //  MyOC
 //
 //  Created by jiangyelin on 2019/10/9.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface DarkModeViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

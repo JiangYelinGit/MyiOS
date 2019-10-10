@@ -7,30 +7,42 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E8F1444234DCB0100DCCECA /* DarkModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1443234DCB0100DCCECA /* DarkModeViewController.m */; };
+		3E8F1447234EFFDB00DCCECA /* PDFLongPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1446234EFFDB00DCCECA /* PDFLongPicViewController.m */; };
+		3E8F144A234F17D100DCCECA /* DoubleEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1449234F17D100DCCECA /* DoubleEditViewController.m */; };
 		3EB79445234DB27B005ADFB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB79444234DB27B005ADFB3 /* AppDelegate.m */; };
 		3EB79448234DB27B005ADFB3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB79447234DB27B005ADFB3 /* SceneDelegate.m */; };
-		3EB7944B234DB27B005ADFB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7944A234DB27B005ADFB3 /* ViewController.m */; };
 		3EB7944E234DB27B005ADFB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB7944C234DB27B005ADFB3 /* Main.storyboard */; };
 		3EB79450234DB27C005ADFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB7944F234DB27C005ADFB3 /* Assets.xcassets */; };
 		3EB79453234DB27C005ADFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB79451234DB27C005ADFB3 /* LaunchScreen.storyboard */; };
 		3EB79456234DB27C005ADFB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB79455234DB27C005ADFB3 /* main.m */; };
+		3EB7945E234DBB53005ADFB3 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7945D234DBB53005ADFB3 /* ListViewController.m */; };
+		3EB79462234DBCA6005ADFB3 /* iOS13NewListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB79461234DBCA6005ADFB3 /* iOS13NewListViewController.m */; };
 		EC23469BBC46584DB0994A43 /* libPods-MyOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AADE4146CFD718FDD6441D /* libPods-MyOC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		30AADE4146CFD718FDD6441D /* libPods-MyOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E8F1442234DCB0100DCCECA /* DarkModeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkModeViewController.h; sourceTree = "<group>"; };
+		3E8F1443234DCB0100DCCECA /* DarkModeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkModeViewController.m; sourceTree = "<group>"; };
+		3E8F1445234EFFDB00DCCECA /* PDFLongPicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFLongPicViewController.h; sourceTree = "<group>"; };
+		3E8F1446234EFFDB00DCCECA /* PDFLongPicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PDFLongPicViewController.m; sourceTree = "<group>"; };
+		3E8F1448234F17D100DCCECA /* DoubleEditViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DoubleEditViewController.h; sourceTree = "<group>"; };
+		3E8F1449234F17D100DCCECA /* DoubleEditViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DoubleEditViewController.m; sourceTree = "<group>"; };
 		3EB79440234DB27B005ADFB3 /* MyOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB79443234DB27B005ADFB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3EB79444234DB27B005ADFB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3EB79446234DB27B005ADFB3 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		3EB79447234DB27B005ADFB3 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		3EB79449234DB27B005ADFB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		3EB7944A234DB27B005ADFB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3EB7944D234DB27B005ADFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3EB7944F234DB27C005ADFB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3EB79452234DB27C005ADFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EB79454234DB27C005ADFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3EB79455234DB27C005ADFB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3EB7945C234DBB53005ADFB3 /* ListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ListViewController.h; sourceTree = "<group>"; };
+		3EB7945D234DBB53005ADFB3 /* ListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ListViewController.m; sourceTree = "<group>"; };
+		3EB79460234DBCA6005ADFB3 /* iOS13NewListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOS13NewListViewController.h; sourceTree = "<group>"; };
+		3EB79461234DBCA6005ADFB3 /* iOS13NewListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOS13NewListViewController.m; sourceTree = "<group>"; };
 		85A6F057E47F2F898360AA4A /* Pods-MyOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOC.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MyOC/Pods-MyOC.release.xcconfig"; sourceTree = "<group>"; };
 		EE27BF56F2B49D814F742199 /* Pods-MyOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyOC.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MyOC/Pods-MyOC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -80,8 +92,9 @@
 				3EB79444234DB27B005ADFB3 /* AppDelegate.m */,
 				3EB79446234DB27B005ADFB3 /* SceneDelegate.h */,
 				3EB79447234DB27B005ADFB3 /* SceneDelegate.m */,
-				3EB79449234DB27B005ADFB3 /* ViewController.h */,
-				3EB7944A234DB27B005ADFB3 /* ViewController.m */,
+				3EB7945C234DBB53005ADFB3 /* ListViewController.h */,
+				3EB7945D234DBB53005ADFB3 /* ListViewController.m */,
+				3EB7945F234DBC6B005ADFB3 /* iOS13新特性 */,
 				3EB7944C234DB27B005ADFB3 /* Main.storyboard */,
 				3EB7944F234DB27C005ADFB3 /* Assets.xcassets */,
 				3EB79451234DB27C005ADFB3 /* LaunchScreen.storyboard */,
@@ -89,6 +102,21 @@
 				3EB79455234DB27C005ADFB3 /* main.m */,
 			);
 			path = MyOC;
+			sourceTree = "<group>";
+		};
+		3EB7945F234DBC6B005ADFB3 /* iOS13新特性 */ = {
+			isa = PBXGroup;
+			children = (
+				3EB79460234DBCA6005ADFB3 /* iOS13NewListViewController.h */,
+				3EB79461234DBCA6005ADFB3 /* iOS13NewListViewController.m */,
+				3E8F1442234DCB0100DCCECA /* DarkModeViewController.h */,
+				3E8F1443234DCB0100DCCECA /* DarkModeViewController.m */,
+				3E8F1445234EFFDB00DCCECA /* PDFLongPicViewController.h */,
+				3E8F1446234EFFDB00DCCECA /* PDFLongPicViewController.m */,
+				3E8F1448234F17D100DCCECA /* DoubleEditViewController.h */,
+				3E8F1449234F17D100DCCECA /* DoubleEditViewController.m */,
+			);
+			path = "iOS13新特性";
 			sourceTree = "<group>";
 		};
 		406323ED78B838EEC42C6C18 /* Pods */ = {
@@ -192,10 +220,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EB7944B234DB27B005ADFB3 /* ViewController.m in Sources */,
+				3EB7945E234DBB53005ADFB3 /* ListViewController.m in Sources */,
 				3EB79445234DB27B005ADFB3 /* AppDelegate.m in Sources */,
 				3EB79456234DB27C005ADFB3 /* main.m in Sources */,
+				3E8F1447234EFFDB00DCCECA /* PDFLongPicViewController.m in Sources */,
+				3E8F1444234DCB0100DCCECA /* DarkModeViewController.m in Sources */,
+				3E8F144A234F17D100DCCECA /* DoubleEditViewController.m in Sources */,
 				3EB79448234DB27B005ADFB3 /* SceneDelegate.m in Sources */,
+				3EB79462234DBCA6005ADFB3 /* iOS13NewListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
