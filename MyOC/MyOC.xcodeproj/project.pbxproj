@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E320A1523502C0200B9D067 /* NetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E320A1423502C0200B9D067 /* NetViewController.m */; };
+		3E320A1823502C8900B9D067 /* BagelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E320A1723502C8900B9D067 /* BagelViewController.m */; };
 		3E8F1444234DCB0100DCCECA /* DarkModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1443234DCB0100DCCECA /* DarkModeViewController.m */; };
 		3E8F1447234EFFDB00DCCECA /* PDFLongPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1446234EFFDB00DCCECA /* PDFLongPicViewController.m */; };
 		3E8F144A234F17D100DCCECA /* DoubleEditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1449234F17D100DCCECA /* DoubleEditViewController.m */; };
@@ -18,11 +20,15 @@
 		3EB79456234DB27C005ADFB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB79455234DB27C005ADFB3 /* main.m */; };
 		3EB7945E234DBB53005ADFB3 /* ListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB7945D234DBB53005ADFB3 /* ListViewController.m */; };
 		3EB79462234DBCA6005ADFB3 /* iOS13NewListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EB79461234DBCA6005ADFB3 /* iOS13NewListViewController.m */; };
-		EC23469BBC46584DB0994A43 /* libPods-MyOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 30AADE4146CFD718FDD6441D /* libPods-MyOC.a */; };
+		D2FE70E71864D8D78B76876E /* Pods_MyOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18A7FBF902FF6B080A0F01EE /* Pods_MyOC.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		30AADE4146CFD718FDD6441D /* libPods-MyOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18A7FBF902FF6B080A0F01EE /* Pods_MyOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E320A1323502C0200B9D067 /* NetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetViewController.h; sourceTree = "<group>"; };
+		3E320A1423502C0200B9D067 /* NetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetViewController.m; sourceTree = "<group>"; };
+		3E320A1623502C8900B9D067 /* BagelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BagelViewController.h; sourceTree = "<group>"; };
+		3E320A1723502C8900B9D067 /* BagelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BagelViewController.m; sourceTree = "<group>"; };
 		3E8F1442234DCB0100DCCECA /* DarkModeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DarkModeViewController.h; sourceTree = "<group>"; };
 		3E8F1443234DCB0100DCCECA /* DarkModeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DarkModeViewController.m; sourceTree = "<group>"; };
 		3E8F1445234EFFDB00DCCECA /* PDFLongPicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PDFLongPicViewController.h; sourceTree = "<group>"; };
@@ -52,7 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC23469BBC46584DB0994A43 /* libPods-MyOC.a in Frameworks */,
+				D2FE70E71864D8D78B76876E /* Pods_MyOC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,9 +68,20 @@
 		118C25F608DDF200748B46C2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				30AADE4146CFD718FDD6441D /* libPods-MyOC.a */,
+				18A7FBF902FF6B080A0F01EE /* Pods_MyOC.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E320A1223502BDC00B9D067 /* 网络 */ = {
+			isa = PBXGroup;
+			children = (
+				3E320A1323502C0200B9D067 /* NetViewController.h */,
+				3E320A1423502C0200B9D067 /* NetViewController.m */,
+				3E320A1623502C8900B9D067 /* BagelViewController.h */,
+				3E320A1723502C8900B9D067 /* BagelViewController.m */,
+			);
+			path = "网络";
 			sourceTree = "<group>";
 		};
 		3EB79437234DB27B005ADFB3 = {
@@ -94,6 +111,7 @@
 				3EB79447234DB27B005ADFB3 /* SceneDelegate.m */,
 				3EB7945C234DBB53005ADFB3 /* ListViewController.h */,
 				3EB7945D234DBB53005ADFB3 /* ListViewController.m */,
+				3E320A1223502BDC00B9D067 /* 网络 */,
 				3EB7945F234DBC6B005ADFB3 /* iOS13新特性 */,
 				3EB7944C234DB27B005ADFB3 /* Main.storyboard */,
 				3EB7944F234DB27C005ADFB3 /* Assets.xcassets */,
@@ -139,6 +157,7 @@
 				3EB7943C234DB27B005ADFB3 /* Sources */,
 				3EB7943D234DB27B005ADFB3 /* Frameworks */,
 				3EB7943E234DB27B005ADFB3 /* Resources */,
+				39C56F04CF825E874101C10D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -195,6 +214,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		39C56F04CF825E874101C10D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-MyOC/Pods-MyOC-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/Bagel/Bagel.framework",
+				"${BUILT_PRODUCTS_DIR}/CocoaAsyncSocket/CocoaAsyncSocket.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bagel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CocoaAsyncSocket.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MyOC/Pods-MyOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		F2C732F2CEB0F3DBC6B8192F /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,11 +263,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E320A1823502C8900B9D067 /* BagelViewController.m in Sources */,
 				3EB7945E234DBB53005ADFB3 /* ListViewController.m in Sources */,
 				3EB79445234DB27B005ADFB3 /* AppDelegate.m in Sources */,
 				3EB79456234DB27C005ADFB3 /* main.m in Sources */,
 				3E8F1447234EFFDB00DCCECA /* PDFLongPicViewController.m in Sources */,
 				3E8F1444234DCB0100DCCECA /* DarkModeViewController.m in Sources */,
+				3E320A1523502C0200B9D067 /* NetViewController.m in Sources */,
 				3E8F144A234F17D100DCCECA /* DoubleEditViewController.m in Sources */,
 				3EB79448234DB27B005ADFB3 /* SceneDelegate.m in Sources */,
 				3EB79462234DBCA6005ADFB3 /* iOS13NewListViewController.m in Sources */,

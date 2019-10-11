@@ -34,7 +34,7 @@
     [self.titles addObject:@{@"双指编辑"
                             :@"DoubleEditViewController"}];
     
-    UIMenu
+    
     
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];

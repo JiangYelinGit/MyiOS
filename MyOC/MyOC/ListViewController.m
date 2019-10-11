@@ -8,6 +8,7 @@
 
 #import "ListViewController.h"
 #import <objc/runtime.h>
+
 @interface ListViewController ()
 @property(nonatomic,strong)NSMutableArray *titles;
 @end
@@ -26,6 +27,10 @@
     self.titles = [NSMutableArray array];
     
     [self.titles addObject:@{@"iOS13 新特性" : @"iOS13NewListViewController"}];
+    [self.titles addObject:@{@"网络" : @"NetViewController"}];
+    
+    
+    
     
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"Cell"];
     

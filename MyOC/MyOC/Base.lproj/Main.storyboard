@@ -36,6 +36,21 @@
             </objects>
             <point key="canvasLocation" x="-401" y="366"/>
         </scene>
+        <!--Bagel View Controller-->
+        <scene sceneID="WbP-Vn-EL5">
+            <objects>
+                <viewController storyboardIdentifier="BagelViewController" id="ikr-CX-XE8" customClass="BagelViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8SU-XF-O3T">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="mkI-Oy-ijd"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qgn-RB-hjq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="522" y="522"/>
+        </scene>
         <!--Dark Mode View Controller-->
         <scene sceneID="aOa-eR-AkI">
             <objects>
