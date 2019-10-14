@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6BBCEC1A46A2278CDBF9EAD2CDB05762"
+               BlueprintIdentifier = "BCE0FC4A2BB59B9F29B8A6C30BBA099A"
                BlueprintName = "Pods-MySwiftUI"
                ReferencedContainer = "container:Pods.xcodeproj"
                BuildableName = "libPods-MySwiftUI.a">

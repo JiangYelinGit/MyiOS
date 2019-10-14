@@ -17,13 +17,21 @@ PODS:
   - Alamofire (5.0.0-rc.2)
   - Bagel (1.3.2):
     - CocoaAsyncSocket
+  - CardSlider (0.1.0)
+  - CircularCarousel (1.0.0)
   - CocoaAsyncSocket (7.6.3)
+  - IBAnimatable (6.0.0)
+  - LayoutInspector (1.1.0)
   - Masonry (1.0.2)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.2.1)
   - Alamofire (~> 5.0.0-rc.2)
   - Bagel (~> 1.3.2)
+  - CardSlider
+  - CircularCarousel
+  - IBAnimatable
+  - LayoutInspector
   - Masonry (~> 1.0.2)
 
 SPEC REPOS:
@@ -31,16 +39,24 @@ SPEC REPOS:
     - AFNetworking
     - Alamofire
     - Bagel
+    - CardSlider
+    - CircularCarousel
     - CocoaAsyncSocket
+    - IBAnimatable
+    - LayoutInspector
     - Masonry
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
   Alamofire: f9450d3c7f6bea2ad62e7a541c3e9b186c7991d6
   Bagel: 199e0105ac694d6eee9db54dd006c940da6ce81b
+  CardSlider: 0a8f5f17f5a76701771794b07fdaeddc512358c8
+  CircularCarousel: 6248f5892c018fc2d115d4d5186be91d46bacbea
   CocoaAsyncSocket: eafaa68a7e0ec99ead0a7b35015e0bf25d2c8987
+  IBAnimatable: d49f9fee0c401b5b08d31b77256b77fb067e0e92
+  LayoutInspector: 811b00a42671a57c1ccfdf85be726a9a2f5dbde5
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: 2b38d7777f0bed66b6d4be6fb55da65c7b750052
+PODFILE CHECKSUM: 2ccd0b740fa36b249e9ef094ce334fd840889eff
 
 COCOAPODS: 1.5.2

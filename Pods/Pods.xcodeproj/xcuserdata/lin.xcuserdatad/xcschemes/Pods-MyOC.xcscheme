@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F09CF57BD4CB3BFD9EB2360447275CB3"
+               BlueprintIdentifier = "3A2F54D750D50781AADDBB3FE2712DE1"
                BuildableName = "Pods_MyOC.framework"
                BlueprintName = "Pods-MyOC"
                ReferencedContainer = "container:Pods.xcodeproj">

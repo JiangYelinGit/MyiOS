@@ -141,6 +141,19 @@ strip_invalid_archs() {
   STRIP_BINARY_RETVAL=1
 }
 
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CardSlider/CardSlider.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CircularCarousel/CircularCarousel.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CardSlider/CardSlider.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/CircularCarousel/CircularCarousel.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework"
+fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
 fi

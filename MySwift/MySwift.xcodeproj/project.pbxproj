@@ -14,11 +14,10 @@
 		3EB7940B234DB0FF005ADFB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB79409234DB0FF005ADFB3 /* Main.storyboard */; };
 		3EB7940D234DB0FF005ADFB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3EB7940C234DB0FF005ADFB3 /* Assets.xcassets */; };
 		3EB79410234DB0FF005ADFB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3EB7940E234DB0FF005ADFB3 /* LaunchScreen.storyboard */; };
-		441706A486EA69D7AE82715D /* libPods-MySwift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 005B53807554AF69A3F2FD92 /* libPods-MySwift.a */; };
+		A69E19668526355DE15A6542 /* Pods_MySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 832A93C3819EECD10DC42DE5 /* Pods_MySwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		005B53807554AF69A3F2FD92 /* libPods-MySwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MySwift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8F144C234F24EA00DCCECA /* 基础内容.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "基础内容.swift"; sourceTree = "<group>"; };
 		3EB79400234DB0FF005ADFB3 /* MySwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3EB79403234DB0FF005ADFB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +28,7 @@
 		3EB7940F234DB0FF005ADFB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3EB79411234DB0FF005ADFB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6A4F579B2690438B2ACCB31C /* Pods-MySwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwift.release.xcconfig"; path = "../Pods/Target Support Files/Pods-MySwift/Pods-MySwift.release.xcconfig"; sourceTree = "<group>"; };
+		832A93C3819EECD10DC42DE5 /* Pods_MySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1CA5117E493A2C0DC74A21D /* Pods-MySwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySwift.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-MySwift/Pods-MySwift.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,7 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				441706A486EA69D7AE82715D /* libPods-MySwift.a in Frameworks */,
+				A69E19668526355DE15A6542 /* Pods_MySwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 		8872AD42BB14E5B12F54B681 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				005B53807554AF69A3F2FD92 /* libPods-MySwift.a */,
+				832A93C3819EECD10DC42DE5 /* Pods_MySwift.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -113,6 +113,7 @@
 				3EB793FC234DB0FF005ADFB3 /* Sources */,
 				3EB793FD234DB0FF005ADFB3 /* Frameworks */,
 				3EB793FE234DB0FF005ADFB3 /* Resources */,
+				0E5143423E19350025EE0CDB /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -170,6 +171,30 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0E5143423E19350025EE0CDB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../Pods/Target Support Files/Pods-MySwift/Pods-MySwift-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CardSlider/CardSlider.framework",
+				"${BUILT_PRODUCTS_DIR}/CircularCarousel/CircularCarousel.framework",
+				"${BUILT_PRODUCTS_DIR}/IBAnimatable/IBAnimatable.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CardSlider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CircularCarousel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IBAnimatable.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods-MySwift/Pods-MySwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		1A01DEFF5A8A4084C9619B5A /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
